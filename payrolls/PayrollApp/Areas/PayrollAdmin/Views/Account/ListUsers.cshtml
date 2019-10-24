@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ApplicationUser>
+
+
+
+<link href="~/payrolladmin/css/holding.css" rel="stylesheet" />
+
+<div class="Holding col-md-12">
+
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Admin Panel</p>
+
+
+
+
+        </div>
+
+   
+
+    </div>
+
+
+
+
+    <div class="row col-md-12 col-lg-12">
+        @foreach (var item in Model)
+        {
+            <div class="sm-6 md-4 col-lg-3 col">
+                <div class="card" style="height:550px; width:104%; border-radius:1rem;">
+                    <div class="card-header">
+                        <img style="width:100%;height:175px; color:#495057;padding-top:2rem;" src="~/File/Images/@item.Image" />
+                    </div>
+
+
+                    <div style="text-align:justify;" class="card-body">
+                        <div style="height:50px">
+                            <h5 class="card-title">Email: @Html.DisplayFor(modelItem => item.Email)</h5>
+
+                        </div>
+
+
+                        <div style="height:50px">
+                            <h5 class="card-title">Ad:  @Html.DisplayFor(modelItem => item.FirstName)</h5>
+
+                        </div>
+                        <div style="height:50px">
+                            <h5 class="card-title">Soyad:  @Html.DisplayFor(modelItem => item.LastName)</h5>
+
+                        </div>
+
+
+                    </div>
+                    <div class="card-footer"  >
+                        <a class="btn btn-danger" style="border-radius:5rem;" asp-controller="Role" asp-action="EditUsers" asp-route-id="@item.Id">Redakte Et</a>
+                    </div>
+
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+
+    <div style="margin-top:3rem;" class="control-label">
+
+        <a asp-action="Register">
+            <button type="submit" style="border-radius:1rem;" class="btn btn-primary">İstifadəçi əlavə et</button>
+        </a>
+        <a asp-controller="Role" asp-action="ListRole">
+            <button type="submit" style="border-radius:1rem;" class="btn btn-primary">  Role Yarat</button>
+        </a>
+
+
+    </div>
+  
+
+
+</div>

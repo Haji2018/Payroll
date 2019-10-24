@@ -1,0 +1,51 @@
+﻿@using PayrollApp.Models.Employment
+@model  PastEmployment
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Köhnə iş yerini qeyd et </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreatePast" method="post" asp-controller="PastEmployment">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Company" class="control-label"></label>
+            <input asp-for="Company" class="form-control holdingControl" />
+            <span asp-validation-for="Company" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="StartDate" class="control-label"></label>
+            <input asp-for="StartDate" class="form-control holdingControl" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EndDate" class="control-label"></label>
+            <input asp-for="EndDate" class="form-control holdingControl" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TheReasonForFailure" class="control-label"></label>
+            <input asp-for="TheReasonForFailure" class="form-control holdingControl" />
+            <span asp-validation-for="TheReasonForFailure" class="text-danger"></span>
+        </div>
+
+        @await Component.InvokeAsync("CurrentEmployee")
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary  " /> |
+            <a class=" btn listbtn" asp-action="ListPast">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+</div>

@@ -1,0 +1,404 @@
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.deps.json
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.json
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.dev.json
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.dll
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CoreCompileInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfoInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.input.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.output.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorCoreGenerate.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\ListUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Numune.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Register.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\CreateCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\DeleteCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\EditCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\ListCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\CreateDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\DeleteDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\EditDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\ListDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\CreateHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\DeleteHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\EditHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\ListHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\CreatePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\DeletePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\EditPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\ListPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ChangePassword.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\CreateRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ListRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ManageUserRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\CreateStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\DeleteStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\EditStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\ListStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\CreateEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\DeleteEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\EditEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\ListEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\CreatePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\DeletePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\EditPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\ListPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\_HrLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\CreateWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\DeleteWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\EditWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\ListWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CopyComplete
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csprojAssemblyReference.cache
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\CreateAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\ListAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\EditAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\DeleteAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\SelectListWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\CurrentWorker\Default.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.deps.json
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.json
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.dev.json
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.dll
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CoreCompileInputs.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfoInputs.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfo.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.input.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.output.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorCoreGenerate.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\ListUsers.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Numune.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Register.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\CreateCompany.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\DeleteCompany.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\EditCompany.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\ListCompany.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\CreateDepartment.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\DeleteDepartment.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\EditDepartment.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\ListDepartment.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\CreateHolding.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\DeleteHolding.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\EditHolding.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Payroll\Index.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\CreatePosition.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\DeletePosition.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\EditPosition.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\ListPosition.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ChangePassword.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\CreateRole.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditRole.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditUsers.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ListRole.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ManageUserRole.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\CreateStore.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\DeleteStore.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\EditStore.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\ListStore.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewImports.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewStart.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\CreateAbsent.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\DeleteAbsent.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\EditAbsent.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\ListAbsent.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\CreateEmployee.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\DeleteEmployee.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\EditEmployee.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\ListEmployee.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\CreatePast.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\DeletePast.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\EditPast.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\ListPast.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Payroll\Index.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\_HrLayout.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\CreateWorker.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\DeleteWorker.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\EditWorker.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\ListWorker.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewImports.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewStart.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cache
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CopyComplete
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentWorker\Default.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\ListHolding.g.cshtml.cs
+C:\Users\HajiEm\Desktop\payrolapppss\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csprojAssemblyReference.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.deps.json
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.json
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.dev.json
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.dll
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CoreCompileInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfoInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.input.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.output.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorCoreGenerate.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\ListUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Register.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\CreateDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\EditDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\ListDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\ListHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\CreatePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\EditPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\ListPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ChangePassword.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ListRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ManageUserRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\CreateStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\EditStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\ListStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\_DepartmentLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\CreateStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\EditStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\ListStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\EditWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\ListWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\CreateWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\EditWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\ListWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\CreateAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\EditAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\ListAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\CreateEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\EditEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\ListEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\CreatePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\EditPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\ListPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\_HrLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\CreateWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\DeleteWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\EditWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\ListWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentHolding\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentStore\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentWorker\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CopyComplete
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Shared\_SpecialistLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\ListCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentDepartment\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentCompany\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentPosition\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentEmployee\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\Details.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\CreateHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMorePartial.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\CreateCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMorePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMorePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\CreateWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\DeleteWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\CreatePayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\ListPayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csprojAssemblyReference.cache
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\CreateVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\EditVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\ListVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\GiveSalary.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.deps.json
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.json
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.runtimeconfig.dev.json
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.dll
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\bin\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CoreCompileInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfoInputs.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.AssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.input.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.TagHelpers.output.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorCoreGenerate.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\ListUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Account\Register.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\CreateCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Company\ListCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\CreateDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\EditDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Department\ListDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\CreateHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Holding\ListHolding.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\CreatePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\EditPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Position\ListPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ChangePassword.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\EditUsers.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ListRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Role\ManageUserRole.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreCompany.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreDepartment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMorePartial.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMorePosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMoreStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\CreateStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\EditStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Store\ListStore.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\LoadMoreWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\Shared\_DepartmentLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\CreateStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\EditStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\StoreBonus\ListStoreBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\CreateWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\EditWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerBonus\ListWorkerBonus.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\CreateWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\EditWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\Views\WorkerPenalty\ListWorkerPenalty.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollDepartmentHead\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\CreateAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\EditAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Absent\ListAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\CreateEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\EditEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Employee\ListEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\CreatePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\EditPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\PastEmployment\ListPast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreAbsent.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreEmployee.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMorePast.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\_HrLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\CreateVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\EditVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Vacation\ListVacation.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\CreateWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\EditWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Worker\ListWorker.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\CreatePayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\ListPayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payroll\Index.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Shared\_SpecialistLayout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentCompany\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentDepartment\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentEmployee\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentHolding\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentPosition\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentStore\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentWorker\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cache
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.RazorTargetAssemblyInfo.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.Views.pdb
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.dll
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.pdb
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csproj.CopyComplete
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Account\Error.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Shared\LoadMoreXitam.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Xitam\CreateXitam.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Xitam\EditXitam.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollHr\Views\Xitam\ListXitam.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\PastPosition\ListPastPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\Shared\LoadMorePastPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\PastPosition\CreatePastPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollAdmin\Views\PastPosition\EditPastPosition.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CurrentPastPosition\Default.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\GivePayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\EditPayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Payment\ListResult.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Shared\LoadMorePayment.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\Razor\Areas\PayrollSpecialist\Views\Shared\LoadMoreResult.g.cshtml.cs
+C:\Users\MAMMADLI\Desktop\payrolls - Copy\PayrollApp\obj\Debug\netcoreapp2.1\PayrollApp.csprojAssemblyReference.cache

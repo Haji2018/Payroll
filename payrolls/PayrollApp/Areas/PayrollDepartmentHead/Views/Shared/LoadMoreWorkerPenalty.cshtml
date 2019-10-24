@@ -1,0 +1,46 @@
+﻿@model IEnumerable<PayrollApp.Models.DepartmentHead.WorkerPenalty>
+
+
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Worker.Employee.Name)
+       
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PenaltyWritedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            <a class="btn btn-primary " asp-action="EditWorkerPenalty" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteWorkerPenalty" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+
+    <tr class="d-none" id="trEmployee">
+
+        <td>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PenaltyWritedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+
+        <td>
+
+            <a class="btn btn-primary " asp-action="EditWorkerPenalty" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteWorkerPenalty" data-toggle="modal"><i class="fas fa-trash"></i></button>
+        </td>
+    </tr>
+}

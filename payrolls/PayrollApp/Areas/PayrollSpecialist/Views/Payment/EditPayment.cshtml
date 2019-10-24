@@ -1,0 +1,56 @@
+﻿@using PayrollApp.Models.PayrollSpecialist
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@model Payment
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Maaş GÜnü Dəyişiklik Et </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <form asp-action="EditPayment" method="post" asp-controller="Payment">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="PaymentDate" class="control-label"></label>
+            <input asp-for="PaymentDate" class="form-control holdingControl" />
+            <span asp-validation-for="PaymentDate" class="text-danger "></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Worker" class="control-label"></label>
+            @{
+                List<SelectListItem> cc = new List<SelectListItem>();
+                foreach (PayrollApp.Models.Employment.Worker item in ViewBag.Workers)
+                {
+                    cc.Add(new SelectListItem
+                    {
+                        Text = item.Employee.Name,
+
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="WorkerId" class="form-control holdingControl" asp-items="cc"></select>
+            <span asp-validation-for="Worker" class="text-danger"></span>
+        </div>
+        @*@await Component.InvokeAsync("CurrentWorker")*@
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+
+
+</div>

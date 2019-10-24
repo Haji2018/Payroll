@@ -1,0 +1,73 @@
+﻿@model IEnumerable<PayrollApp.Models.Employment.Employee>
+
+
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Birthday)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Education.EducationType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FamilyStatus.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender.PersonGender)
+        </td>
+
+        <td>
+            <a class="btn btn-primary " asp-action="EditEmployee" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+            <button title="Details" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary detailEmployee" data-toggle="modal"><i class="fas fa-info"></i></button>
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteEmployee" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+    @*<img src="~/File/Images/@item.Image" style="width:10%; height:75px;" / >*@
+    <tr class="d-none" id="trEmployee">
+
+        <td>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Birthday)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Education.EducationType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FamilyStatus.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender.PersonGender)
+        </td>
+        
+        <td>
+
+            <a class="btn btn-primary " asp-action="EditEmployee" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+            <button title="Details" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary detailEmployee" data-toggle="modal"><i class="fas fa-info"></i></button>
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteEmployee" data-toggle="modal"><i class="fas fa-trash"></i></button>
+        </td>
+    </tr>
+}
+
+
+
+
+

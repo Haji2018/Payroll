@@ -1,0 +1,114 @@
+﻿
+@model PayrollApp.Areas.PayrollAdmin.ViewModels.RegisterViewModel
+
+
+<link href="~/payrolladmin/css/holding.css" rel="stylesheet" />
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> İstifadəçi məlumatlarını redaktə et </p>
+
+
+
+
+        </div>
+
+    </div>
+    <form method="post" asp-controller="Role" asp-action="EditUsers" enctype="multipart/form-data">
+
+
+
+        <div class="form-group row">
+            <label asp-for="Email" class="control-label  col-sm-2"></label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control holdingControl" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+
+
+        <div class="form-group row">
+            <label asp-for="FirstName" class="control-label  col-sm-2"></label>
+            <div class="col-sm-10">
+                <input asp-for="FirstName" class="form-control holdingControl" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label asp-for="LastName" class="control-label  col-sm-2"></label>
+            <div class="col-sm-10">
+                <input asp-for="LastName" class="form-control holdingControl" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            @if (Model.Roles.Any())
+            {
+
+                foreach (var role in Model.Roles)
+                {
+                    <label asp-for="RoleName" class="control-label  col-sm-2"></label>
+                    <div class="col-sm-10">
+
+                        <input asp-for="@role" disabled class="form-control holdingControl" />
+                    </div>
+                }
+
+
+
+            }
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Şəkil</label>
+            <div>
+                <img class="imgadmin" src="~/File/Images/@Model.Image" id="photoPrew">
+
+
+
+            </div>
+            <div>
+                <label class="fileContainer">
+                    <button class="btn">Şəkli Dəyiş</button>
+                    <input type="file" id="Image" name="Image" accept="image/*" onchange="PreviewPhoto(this)" />
+                </label>
+            </div>
+
+
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Yadda Saxla" class="btn btn-primary" />
+            <a class="btn btn-primary" asp-controller="Account" asp-action="ListUsers"> Geri Qayit</a>
+
+            <a asp-controller="Role" asp-action="ManageUserRole" class="btn btn-primary " asp-route-userId="@Model.Id">Role Ver </a>
+            <a class="btn btn-danger" asp-controller="Role" asp-action="ChangePassword" asp-route-id="@Model.Id">Parolu Deyish</a>
+        </div>
+    </form>
+
+
+</div>
+
+
+<script>
+    function PreviewPhoto(input) {
+        let image = input.files[0];
+
+        let reader = new FileReader();
+        reader.readAsDataURL(image);
+
+        reader.onload = function () {
+            let base64Photo = reader.result;
+            let preview = document.getElementById("photoPrew");
+            preview.src = base64Photo;
+        };
+    }
+
+</script>

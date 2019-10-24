@@ -1,0 +1,51 @@
+﻿
+@using PayrollApp.Models.Employment
+@using PayrollApp.Models.Employment.Enum
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Absent
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Qayıb Yaz</p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateAbsent" method="post" asp-controller="Absent">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @await Component.InvokeAsync("CurrentWorker")
+       
+        <div class="form-group">
+            <label asp-for="Attandence" class="control-label"></label>
+            <select asp-for="Attandence " class="form-control holdingControl" asp-items="Html.GetEnumSelectList<Attandence>()"></select>
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="AbsentDate" class="control-label"></label>
+            <input asp-for="AbsentDate" class="form-control holdingControl" />
+            <span asp-validation-for="AbsentDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Reason" class="control-label"></label>
+            <input asp-for="Reason" class="form-control holdingControl" />
+            <span asp-validation-for="Reason" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary " /> |
+            <a class=" btn listbtn" asp-action="ListAbsent">Geri Qayıt</a>
+        </div>
+    </form>
+   
+   
+
+
+</div>

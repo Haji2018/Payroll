@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PayrollApp.Models.Employment.PastEmployment>
+
+
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.Name)
+            @Html.DisplayFor(modelItem => item.Employee.Surname)
+    
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TheReasonForFailure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Company)
+        </td>
+        <td>
+            <a class="btn btn-primary " asp-action="EditPast" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deletePast" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+
+}

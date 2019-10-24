@@ -1,0 +1,53 @@
+﻿@using PayrollApp.Models.Employment
+@using PayrollApp.Models.Employment.Enum
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Vacation
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Məzuniyyət Yaz</p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateVacation" method="post" asp-controller="Vacation">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @await Component.InvokeAsync("CurrentWorker")
+
+        <div class="form-group">
+            <label asp-for="WorkerVacation" class="control-label"></label>
+            <select asp-for="WorkerVacation " class="form-control holdingControl" asp-items="Html.GetEnumSelectList<WorkerVacation>()"></select>
+
+        </div>
+
+        <div class="form-group ">
+      
+            <label asp-for="StartDate" class="control-label"></label>
+            <input asp-for="StartDate" class="form-control holdingControl" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+           
+            <label asp-for="EndDate" class="control-label"></label>
+            <input asp-for="EndDate" class="form-control holdingControl" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+        
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary" /> |
+            <a class=" btn listbtn" asp-action="ListVacation">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+
+
+</div>

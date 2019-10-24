@@ -1,0 +1,39 @@
+﻿@model IEnumerable<PayrollApp.Models.PayrollSpecialist.SalaryPayment>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.PositionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkerBonus)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkerPenalty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreBonus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AttandenceCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VacationDay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentAmount)
+        </td>
+        <td>
+
+            <button asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteSalaryResult" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+}

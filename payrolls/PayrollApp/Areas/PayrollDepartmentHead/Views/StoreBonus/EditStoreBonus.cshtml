@@ -1,0 +1,69 @@
+﻿
+
+@using PayrollApp.Models.Employment.Enum
+@using PayrollApp.Models.DepartmentHead
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model StoreBonus
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Mağaza Bonusu Üzərində Dəyişiklikler </p>
+
+
+
+
+        </div>
+
+    </div>
+    <div class="col-md-8">
+        <form asp-action="EditStoreBonus">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control holdingControl" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Month" class="control-label"></label>
+                <select asp-for="Month " class="form-control holdingControl" asp-items="Html.GetEnumSelectList<Month>()"></select>
+                <span asp-validation-for="Month" class="text-danger"></span>
+            </div>
+         
+            <div class="form-group">
+                <label asp-for="Store" class="control-label"></label>
+                @{
+                    List<SelectListItem> ss = new List<SelectListItem>();
+                    foreach (Store item in ViewBag.Stores)
+                    {
+                        ss.Add(new SelectListItem
+                        {
+                            Text = item.StoreName,
+                            Value = item.Id.ToString()
+                        });
+                    }
+                }
+                <select asp-for="StoreId" class="form-control holdingControl" asp-items="ss"></select>
+                <span asp-validation-for="Store" class="text-danger"></span>
+
+                <div class="form-group">
+                    <label asp-for="StoreBonusWritedDate" class="control-label"></label>
+                    <input asp-for="StoreBonusWritedDate" class="form-control holdingControl" />
+                    <span asp-validation-for="StoreBonusWritedDate" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+
+
+</div>

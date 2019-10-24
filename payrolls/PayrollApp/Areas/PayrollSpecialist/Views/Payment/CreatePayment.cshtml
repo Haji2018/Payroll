@@ -1,0 +1,38 @@
+﻿@model PayrollApp.Models.PayrollSpecialist.Payment
+
+
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Maaş GÜnü Əlavə Et </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+  
+
+    <form asp-action="CreatePayment" method="post" asp-controller="Payment">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="PaymentDate" class="control-label"></label>
+            <input asp-for="PaymentDate" class="form-control holdingControl" />
+            <span asp-validation-for="PaymentDate" class="text-danger "></span>
+        </div>
+        @await Component.InvokeAsync("CurrentWorker")
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+
+
+</div>

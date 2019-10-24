@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PayrollApp.Models.Employment.Worker>
+
+
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+
+            @Html.DisplayFor(modelItem => item.Employee.Name)
+            @Html.DisplayFor(modelItem => item.Employee.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Store.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.PositionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PastPosition.PositionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Company.CompanyName)
+        </td>
+        <td>
+            <a class="btn btn-primary " asp-action="EditWorker" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteWorker" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+
+    <tr class="d-none" id="trEmployee">
+
+
+        <td>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Store.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.PositionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PastPosition.PositionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Company.CompanyName)
+        </td>
+
+        <td>
+
+            <a class="btn btn-primary " asp-action="EditWorker" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteWorker" data-toggle="modal"><i class="fas fa-trash"></i>Delete</button>
+        </td>
+    </tr>
+}

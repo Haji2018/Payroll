@@ -1,0 +1,31 @@
+﻿@model PayrollApp.ViewModels.LoginViewModel
+
+
+
+
+
+
+<h1>Login</h1>
+
+<form method="post" asp-action="Login" asp-controller="Account">
+
+    <div asp-validation-summary="All"></div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+   
+
+    <input type="submit" value="Login" class="btn btn-success my-4 btn-block" />
+
+</form>

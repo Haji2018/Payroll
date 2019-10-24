@@ -1,0 +1,130 @@
+﻿@model List<PayrollApp.Areas.PayrollAdmin.ViewModels.ManageUserRoleViewModel>
+
+
+@{
+
+    var userId = ViewBag.userId;
+
+}
+
+
+
+
+
+<link href="~/payrolladmin/css/holding.css" rel="stylesheet" />
+
+<div class="Holding col-md-12">
+
+    <div class="head-holding">
+        <div class="row">
+
+
+            <p>İstifadəçiyə Role Teyin Et</p>
+
+
+
+        </div>
+
+    </div>
+
+    <form method="post">
+
+        <table class="table table-bordered table-striped employees">
+            <thead>
+                <tr>
+                    <th>
+                        Role Seç
+                    </th>
+                    <th>
+                        Role Name
+                    </th>
+                  
+
+                </tr>
+            </thead>
+
+            <tbody class="table-body">
+
+
+                @for (int i = 0; i < Model.Count; i++)
+                {
+
+                <tr>
+                 
+                     
+
+
+                   
+                    <td>
+                        <input type="hidden" asp-for="@Model[i].RoleId" />
+
+
+
+
+                        <input type="hidden" asp-for="@Model[i].RoleName" />
+                        <input asp-for="@Model[i].IsSelected" class="custom-checkbox" style="height:2rem; width:2rem;" />
+
+
+                    </td>
+                    <td>
+
+                        <label class="form-check-label" asp-for="@Model[i].IsSelected">
+
+                            @Model[i].RoleName
+                        </label>
+
+                    </td>
+
+
+                </tr>
+                }
+
+
+
+
+
+            </tbody>
+        </table>
+
+
+
+        <div>
+            <input  type="submit" value="Təyin Et" class="btn btn-outline-primary" style="border-radius:1rem;" />
+            <a class="btn btn-outline-danger" style="border-radius:1rem;" asp-controller="Role" asp-action="EditUsers" asp-route-id="@userId"> Cancel</a>
+        </div>
+    </form>
+</div>
+
+@*<form method="post">
+
+    <div class="card">
+        <div class="card-header">
+            <h2> Manage User Role</h2>
+        </div>
+        <div class="card-body">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div class="">
+                    <input type="hidden" asp-for="@Model[i].RoleId" />
+                    <input type="hidden" asp-for="@Model[i].RoleName" />
+                    <input asp-for="@Model[i].IsSelected" class="form-check-input" />
+
+                    <label class="form-check-label" asp-for="@Model[i].IsSelected">
+
+                        @Model[i].RoleName
+                    </label>
+                </div>
+            }
+        </div>
+
+        <div class="card-footer">
+            <input type="submit" value="Update" class="btn btn-primary" />
+            <a class="btn btn-danger" asp-controller="Role" asp-action="EditUsers" asp-route-id="@userId"> Cancel</a>
+        </div>
+
+
+    </div>
+
+
+</form>*@
+

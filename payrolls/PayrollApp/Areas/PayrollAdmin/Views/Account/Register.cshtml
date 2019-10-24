@@ -1,0 +1,89 @@
+﻿@model PayrollApp.Areas.PayrollAdmin.ViewModels.RegisterViewModel
+
+
+
+<link href="~/payrolladmin/css/holding.css" rel="stylesheet" />
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Istifadəçi Yarat</p>
+
+
+
+
+        </div>
+
+    </div>
+
+    <form asp-action="Register" method="post" asp-controller="Account" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-md-3  workerClass" style="display:inline-block">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input data-val-required="Sizin elektron poçtunuz düzgün yazılmayıb." asp-for="Email" class="form-control regiterControl" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control regiterControl" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control regiterControl" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3  workerClass" style="display:inline-block">
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input data-val-required="Şifrəni düzgun yazın.   Nümunə: haci5555" asp-for="Password" class="form-control regiterControl" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input data-val-required="Şifrələr üst-üstə düşmür." asp-for="ConfirmPassword" class="form-control regiterControl" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+        </div>
+            <div class="form-group">
+                <label class="control-label">Şəkil</label>
+
+                <div>
+                    <img style="width:17%;height:175px;border-radius:2rem; color:#495057;border:solid;" id="photoBase">
+
+
+
+                </div>
+                <div>
+                    <label class="fileContainer">
+                        <button class="btn">File Seç</button>
+                        <input type="file" id="Image" name="Image" accept="image/*" onchange="ShowPhoto(this)" />
+                    </label>
+                </div>
+
+
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+    </form>
+</div>
+
+<script>
+    function ShowPhoto(input) {
+        let photoFile = input.files[0];
+
+        let reader = new FileReader();
+        reader.readAsDataURL(photoFile);
+
+        reader.onload = function () {
+            let photoBase64 = reader.result;
+            let imgTag = document.getElementById("photoBase");
+            imgTag.src = photoBase64;
+        }
+    }
+</script>

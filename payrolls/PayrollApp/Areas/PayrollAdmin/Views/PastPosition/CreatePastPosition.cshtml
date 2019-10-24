@@ -1,0 +1,43 @@
+﻿
+@using PayrollApp.Models.Employment;
+
+@model PastPosition
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Vəzifə Yarat</p>
+
+
+
+
+        </div>
+
+    </div>
+
+    <form asp-action="CreatePastPosition" method="post" asp-controller="PastPosition">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="PositionName" class="control-label"></label>
+            <input asp-for="PositionName" class="form-control holdingControl" />
+            <span asp-validation-for="PositionName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PositionSalary" class="control-label"></label>
+            <input asp-for="PositionSalary" class="form-control holdingControl" />
+            <span asp-validation-for="PositionSalary" class="text-danger"></span>
+        </div>
+        @await Component.InvokeAsync("CurrentDepartment")
+        @await Component.InvokeAsync("CurrentCompany")
+
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary " /> |
+            <a class=" btn listbtn" asp-action="ListPosition">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+</div>

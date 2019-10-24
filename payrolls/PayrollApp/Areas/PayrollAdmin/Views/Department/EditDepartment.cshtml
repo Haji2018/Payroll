@@ -1,0 +1,58 @@
+﻿
+@using PayrollApp.Models.Employment;
+@using Microsoft.AspNetCore.Mvc.Rendering;
+
+@model Department
+
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p>Departament Üzərində Dəyişikliklər</p>
+
+
+
+
+        </div>
+
+    </div>
+    <form asp-action="EditDepartment" method="post" asp-controller="Department">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="DepartmentName" class="control-label"></label>
+            <input asp-for="DepartmentName" class="form-control holdingControl" />
+            <span asp-validation-for="DepartmentName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone" class="control-label"></label>
+            <input asp-for="Phone" class="form-control holdingControl" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Company" class="control-label"></label>
+            @{
+                List<SelectListItem> cc = new List<SelectListItem>();
+                foreach (Company item in ViewBag.Companies)
+                {
+                    cc.Add(new SelectListItem
+                    {
+                        Text = item.CompanyName,
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="CompanyId" class="form-control holdingControl" asp-items="cc"></select>
+            <span asp-validation-for="Company" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Yadda Saxla" class="btn btn-primary" /> |
+            <a class=" btn listbtn" asp-action="ListDepartment">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+</div>

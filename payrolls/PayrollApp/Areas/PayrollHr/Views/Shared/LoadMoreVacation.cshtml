@@ -1,0 +1,34 @@
+﻿@model IEnumerable<PayrollApp.Models.Employment.Vacation>
+
+
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Worker.Employee.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Worker.Employee.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkerVacation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            <a class="btn btn-primary " asp-action="EditVacation" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteVacation" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+
+
+}

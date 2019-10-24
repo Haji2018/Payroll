@@ -1,0 +1,193 @@
+﻿.Holding table {
+    margin-top: 2rem;
+    width: 110%;
+    margin-bottom: 3rem;
+}
+
+.Holding .holdingThread {
+    background-color: #9969DB;
+}
+
+.Holding .holdingTr {
+    margin-right: 1rem;
+    text-align: center;
+}
+
+    .Holding .holdingTr th {
+        color: white;
+    }
+
+
+.employee-holding {
+    width: 80%;
+    background-color: black;
+}
+
+.bigPlus {
+    font-size: 50px;
+}
+
+.Holding .form-group .holdingControl {
+    width: 25%;
+    border-radius: 5rem;
+}
+.Holding .form-group .employeeControl {
+    width: 100%;
+    border-radius: 5rem;
+}
+.Holding .form-group .employeeLabel {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.head-holding {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    text-align: center;
+}
+
+    .head-holding .row p {
+        font-size: 3rem;
+        color: #343A40;
+    }
+
+.Holding {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 7rem;
+}
+
+.table th {
+    font-size: 1.5rem;
+    color: #343A40;
+}
+
+.search-holding .form-control {
+    margin-bottom: 1rem;
+}
+
+.form-group .btn {
+}
+
+.form-group .control-label {
+    font-size: 2rem;
+    color: #343A40;
+}
+
+.listformfordelete .listbtn {
+    background-color: #15BEC4;
+    color: white;
+}
+
+.table .listbtn {
+    background-color: #15BEC4;
+    color: white;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+    .fileContainer [type=file] {
+        cursor: inherit;
+        display: block;
+        font-size: 999px;
+        filter: alpha(opacity=0);
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0;
+    }
+
+    .fileContainer button {
+        margin-top: 1rem;
+    }
+
+.form-group .imgadmin {
+    width: 17%;
+    height: 175px;
+    margin-left: 11rem;
+    padding-bottom: 5rem;
+}
+
+.searchIcon button {
+    position: absolute;
+}
+
+.searchIcon i {
+    position: absolute;
+}
+
+.searchIcon {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.hiddenButton {
+    top: 13px;
+    min-width: 40px;
+    border: none;
+}
+
+.icon {
+    padding: 13px;
+    min-width: 40px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.holdingTr button {
+    border: none;
+    color: white;
+}
+
+.holdingTbody {
+    text-align: center;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+    .fileContainer [type=file] {
+        cursor: inherit;
+        display: block;
+        font-size: 999px;
+        filter: alpha(opacity=0);
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0;
+    }
+
+    .fileContainer button {
+        margin-top: 1rem;
+    }
+
+.form-group .imgadmin {
+    width: 17%;
+    height: 175px;
+    margin-left: 11rem;
+    padding-bottom: 5rem;
+}
+.workerInput  {
+
+}
+
+.Holding .workerClass .holdingControl {
+    width: 77%;
+    border-radius: 5rem;
+}

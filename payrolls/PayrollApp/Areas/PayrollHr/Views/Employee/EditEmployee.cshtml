@@ -1,0 +1,269 @@
+﻿@using PayrollApp.Models.Employment
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Employee
+
+    <div class="Holding col-md-12">
+        <div class="head-holding">
+            <div class="row">
+
+           
+
+
+
+
+            </div>
+
+        </div>
+        <form asp-action="EditEmployee" method="post" asp-controller="Employee" enctype="multipart/form-data">
+          
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">İşçi Məlumatlarını Dəyiş</h4>
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label asp-for="Name" class="control-label employeeLabel"></label>
+                                                <input asp-for="Name" class="form-control employeeControl" />
+                                                <span asp-validation-for="Name" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label asp-for="Surname" class="control-label employeeLabel"></label>
+                                                <input asp-for="Surname" class="form-control employeeControl" />
+                                                <span asp-validation-for="Surname" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label asp-for="Patronymic" class="control-label employeeLabel"></label>
+                                                <input asp-for="Patronymic" class="form-control employeeControl" />
+                                                <span asp-validation-for="Patronymic" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label asp-for="Birthday" class="control-label employeeLabel"></label>
+                                                <input asp-for="Birthday" class="form-control employeeControl" />
+                                                <span asp-validation-for="Birthday" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label asp-for="LivingPlace" class="control-label employeeLabel"></label>
+                                                <input asp-for="LivingPlace" class="form-control employeeControl" />
+                                                <span asp-validation-for="LivingPlace" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label asp-for="DistrictRegistration" class="control-label employeeLabel"></label>
+                                                <input asp-for="DistrictRegistration" class="form-control employeeControl" />
+                                                <span asp-validation-for="DistrictRegistration" class="text-danger"></span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label asp-for="IdentityCardNumber" class="control-label employeeLabel"></label>
+                                                <input asp-for="IdentityCardNumber" class="form-control employeeControl" />
+                                                <span asp-validation-for="IdentityCardNumber" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label asp-for="Education" class="control-label employeeLabel"></label>
+                                                @{
+                                                    List<SelectListItem> bb = new List<SelectListItem>();
+                                                    foreach (Education item in ViewBag.Educations)
+                                                    {
+                                                        bb.Add(new SelectListItem
+                                                        {
+                                                            Text = item.EducationType,
+                                                            Value = item.Id.ToString()
+                                                        });
+                                                    }
+                                                }
+                                                <select asp-for="EducationId" class="form-control" asp-items="bb"></select>
+                                                <span asp-validation-for="Education" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label asp-for="FamilyStatus" class="control-label employeeLabel"></label>
+                                                @{
+                                                    List<SelectListItem> cc = new List<SelectListItem>();
+                                                    foreach (FamilyStatus item in ViewBag.FamilyStatuses)
+                                                    {
+                                                        cc.Add(new SelectListItem
+                                                        {
+                                                            Text = item.Status,
+                                                            Value = item.Id.ToString()
+                                                        });
+                                                    }
+                                                }
+                                                <select asp-for="FamilyStatusId" class="form-control" asp-items="cc"></select>
+                                                <span asp-validation-for="FamilyStatus" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label asp-for="Gender" class="control-label employeeLabel"></label>
+                                                @{
+                                                    List<SelectListItem> dd = new List<SelectListItem>();
+                                                    foreach (Gender item in ViewBag.Genders)
+                                                    {
+                                                        dd.Add(new SelectListItem
+                                                        {
+                                                            Text = item.PersonGender,
+                                                            Value = item.Id.ToString()
+                                                        });
+                                                    }
+                                                }
+                                                <select asp-for="GenderId" class="form-control" asp-items="dd"></select>
+                                                <span asp-validation-for="Gender" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                               
+                                  
+                                    <input type="submit" value="Yadda Saxla" class="btn btn-primary" />
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card card-user">
+                            
+                            <div class="form-group">
+
+                                <div>
+                                    <img src="~/File/Images/@Model.Image" style="width:100%;height:250px; " id="photoPrew" />
+                                </div>
+                                <label class="fileContainer">
+                                    <button style="margin-left:1rem;" class="btn"><i class="fa fa-camera-retro fa-lg"></i></button>
+                                    <input type="file" id="Image" name="Image" accept="image/*" onchange="PreviewPhoto(this)" />
+                                </label>
+                              
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            
+                        
+                            <hr>
+                            <div class="text-center">
+                                <button href="facebook.com" class="btn btn-simple"><i class="fab fa-facebook-square"></i></button>
+                                <button href="instagram.com" class="btn btn-simple"><i class="fab fa-instagram"></i></button>
+                                <button href="https://www.linkedin.com/" class="btn btn-simple"><i class="fab fa-linkedin-in"></i></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+<script>
+    function PreviewPhoto(input) {
+        let image = input.files[0];
+
+        let reader = new FileReader();
+        reader.readAsDataURL(image);
+
+        reader.onload = function () {
+            let base64Photo = reader.result;
+            let preview = document.getElementById("photoPrew");
+            preview.src = base64Photo;
+        };
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

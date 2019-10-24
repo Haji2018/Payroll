@@ -1,0 +1,50 @@
+﻿
+
+
+@model IEnumerable<PayrollApp.Models.Employment.Position>
+
+
+@foreach (var item in Model)
+{
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.PositionName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PositionSalary)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Company.CompanyName)
+    </td>
+    <td>
+        <a class="btn btn-primary " asp-action="EditPosition" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+
+        <button title="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deletePosition" data-toggle="modal"><i class="fas fa-trash"></i></button>
+    </td>
+</tr>
+
+<tr class="d-none" id="trEmployee">
+
+    <td>
+       
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PositionSalary)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Company.CompanyName)
+    </td>
+
+
+    <td>
+        <a class="btn btn-primary " asp-action="EditPosition" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a>
+        <button title="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deletePosition" data-toggle="modal"><i class="fas fa-trash"></i>Delete</button>
+    </td>
+</tr>
+}

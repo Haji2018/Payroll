@@ -1,0 +1,140 @@
+﻿@model IEnumerable<PayrollApp.Models.PayrollSpecialist.SalaryPayment>
+
+
+
+
+<div class="Holding col-md-12">
+
+    <div class="head-holding">
+        <div class="row">
+            <p>Maaş Alanların Cədvəli</p>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <form asp-area="PayrollSpecialist" asp-controller="Payment" asp-action="ListResult" class="form-group">
+
+        <div class="form-group searchIcon  col-xl-4">
+            <i class="fas fa-search icon"></i>
+
+            <input placeholder="AXTARIŞ" name="SearchString" class="form-control searchInput" type="text" style="border-radius:5rem;" />
+            <button type="submit" class="btn btn-default btn-info hiddenButton"></button>
+        </div>
+
+    </form>
+
+
+
+
+
+
+    <table class="table  employees">
+
+        <thead class="holdingThread">
+            <tr class="holdingTr">
+                <th>
+                    <h5>İşçi</h5>
+
+                </th>
+
+
+                <th>
+
+                    <h5>Vəzifə</h5>
+                </th>
+                <th>
+
+                    <h5>İşçi Bonusu</h5>
+                </th>
+                <th>
+
+                    <h5>İşçi Cəriməsi </h5>
+                </th>
+
+                <th>
+
+                    <h5>Mağaza Bonusu</h5>
+                </th>
+                <th>
+
+                    <h5>Qayıbların Sayı</h5>
+                </th>
+                <th>
+
+                    <h5>Məzuniyyətin Sayı</h5>
+                </th>
+                <th>
+
+                    <h5>Gün</h5>
+                </th>
+                <th>
+
+                    <h5>Vaktiki Maaş</h5>
+                </th>
+                <th>
+
+
+                    <a asp-action="ListPayment">
+                        <button title="Siyahı" type="submit" class="btn btn-primary holdingButton"><i class="fas fa-list bigPlus"></i></button>
+
+                    </a>
+                </th>
+
+            </tr>
+        </thead>
+        <tbody class="table-body table-bordered holdingTbody">
+
+            <partial name="LoadMoreResult" model="@Model" />
+
+
+
+
+
+
+        </tbody>
+    </table>
+
+    <div class="row">
+        <button id="load_more_result_salary" style="border-radius:5rem;" class="btn btn-primary w-25 mx-outo my-5 ml-5">Yüklə</button>
+
+    </div>
+    <input type="hidden" id="holdingCount" value="@ViewBag.TotalCount" />
+
+</div>
+
+
+
+<div class="modal fade" id="delete">
+
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-bg-color">
+            <div class="modal-header">
+                <h4 class="ml-5">Silmək isdədiyinizdən əminsinizmi?</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+
+
+            <div class="modal-footer d-flex">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <span class="caption-subject bold">İmtina </span>
+                </button>
+                <span class="AntiForge"> @Html.AntiForgeryToken() </span>
+                <button type="button" class="btn btn-danger deleteSave_ResultSalary" data-dismiss="modal">
+                    <i class="fas fa-trash text-white m-r-5"></i>
+                    <span class="caption-subject bold ml-2">
+                        Sil
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

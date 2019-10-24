@@ -1,0 +1,54 @@
+﻿
+
+@using PayrollApp.Models.DepartmentHead
+
+@using PayrollApp.Models.Employment.Enum
+
+@model StoreBonus
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Mağaza Bonusu Yaz </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateStoreBonus" method="post" asp-controller="StoreBonus">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Amount" class="control-label"></label>
+            <input asp-for="Amount" class="form-control holdingControl" />
+            <span asp-validation-for="Amount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Month" class="control-label"></label>
+            <select asp-for="Month " class="form-control holdingControl" asp-items="Html.GetEnumSelectList<Month>()"></select>
+            <span asp-validation-for="Month" class="text-danger"></span>
+        </div>
+
+        @await Component.InvokeAsync("CurrentStore")
+
+        <div class="form-group">
+            <label asp-for="StoreBonusWritedDate" class="control-label"></label>
+            <input asp-for="StoreBonusWritedDate" class="form-control holdingControl" />
+            <span asp-validation-for="StoreBonusWritedDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary  " /> |
+            <a class=" btn listbtn" asp-action="ListStoreBonus">Geri Qayıt</a>
+        </div>
+    </form>
+    
+
+
+
+
+</div>

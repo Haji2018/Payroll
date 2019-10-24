@@ -1,0 +1,10 @@
+﻿@model PayrollApp.ViewModels.SelectListItemViewModel
+
+
+<div class="form-group workerInput">
+    <label class="control-label">Mağaza</label>
+    <select class="form-control holdingControl" asp-items="Model.SelectListStores" name="StoreId" asp-for="Store.Id">
+        <option value=""></option>
+    </select>
+    <span asp-validation-for="Store.Id" class="text-danger"></span>
+    </div>

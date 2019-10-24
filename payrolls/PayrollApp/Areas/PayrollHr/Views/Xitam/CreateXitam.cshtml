@@ -1,0 +1,44 @@
+﻿
+
+@using PayrollApp.Models.Employment
+@using PayrollApp.Models.Employment.Enum
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Xitam
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Xitam Yaz</p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateXitam" method="post" asp-controller="Xitam">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @await Component.InvokeAsync("CurrentWorker")
+
+      
+
+        <div class="form-group">
+            <label asp-for="EndDate" class="control-label"></label>
+            <input asp-for="EndDate" class="form-control holdingControl" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+       
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary " /> |
+            <a class=" btn listbtn" asp-action="ListXitam">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+
+
+</div>

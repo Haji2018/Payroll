@@ -1,0 +1,58 @@
+﻿@using PayrollApp.Models.Employment
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Worker
+
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p>İşə qebul et </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateWorker" method="post" asp-controller="Worker" class="col-md-12">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-md-3  workerClass" style="display:inline-block">
+            @await Component.InvokeAsync("CurrentDepartment")
+            @await Component.InvokeAsync("CurrentStore")
+
+        </div>
+        <div class="col-md-3 workerClass" style="display:inline-block">
+            @await Component.InvokeAsync("CurrentCompany")
+            @await Component.InvokeAsync("CurrentPosition")
+
+        </div>
+        <div class="col-md-3 workerClass" style="display:inline-block">
+            @await Component.InvokeAsync("CurrentEmployee")
+        
+            <div class="form-group workerInput">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control holdingControl" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+
+        </div>
+
+       
+
+
+
+        <div class="form-group" style="margin-top:3rem;">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary  " /> |
+            <a class=" btn listbtn" asp-action="ListWorker">Geri Qayıt</a>
+        </div>
+    </form>
+   
+
+
+</div>

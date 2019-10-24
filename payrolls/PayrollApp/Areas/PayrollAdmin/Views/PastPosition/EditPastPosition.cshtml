@@ -1,0 +1,74 @@
+﻿
+
+@using PayrollApp.Models.Employment;
+@using Microsoft.AspNetCore.Mvc.Rendering;
+@model PastPosition
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Keçmiş Vəzifə Üzərində Dəyişikliklər </p>
+
+
+
+
+        </div>
+
+    </div>
+    <form asp-action="EditPastPosition" method="post" asp-controller="PastPosition">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="PositionName" class="control-label"></label>
+            <input asp-for="PositionName" class="form-control holdingControl" />
+            <span asp-validation-for="PositionName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PositionSalary" class="control-label"></label>
+            <input asp-for="PositionSalary" class="form-control holdingControl" />
+            <span asp-validation-for="PositionSalary" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Department" class="control-label"></label>
+            @{
+                List<SelectListItem> ls = new List<SelectListItem>();
+                foreach (Department item in ViewBag.Departments)
+                {
+                    ls.Add(new SelectListItem
+                    {
+                        Text = item.DepartmentName,
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="DepartmentId" class="form-control holdingControl" asp-items="ls"></select>
+            <span asp-validation-for="Department" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Company" class="control-label"></label>
+            @{
+                List<SelectListItem> ss = new List<SelectListItem>();
+                foreach (Company item in ViewBag.Companies)
+                {
+                    ss.Add(new SelectListItem
+                    {
+                        Text = item.CompanyName,
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="CompanyId" class="form-control holdingControl" asp-items="ss"></select>
+            <span asp-validation-for="Company" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Yadda Saxla" class="btn btn-primary" /> |
+            <a class=" btn listbtn" asp-action="ListPosition">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+</div>

@@ -1,0 +1,186 @@
+﻿@model PayrollApp.Areas.PayrollSpecialist.ViewModels.WorkerSalary
+
+
+
+
+
+
+
+<div class="Holding col-md-12">
+
+    <div class="head-holding">
+        <div class="row">
+            <p> İşə qəbul Üzrə Əməliyyatlar</p>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="form-group searchIcon  col-xl-4">
+        <i class="fas fa-search icon"></i>
+        <input id="workerName" placeholder="AXTARIŞ" class="form-control searchInput" type="text" style="border-radius:5rem;" />
+    </div>
+
+
+
+
+
+
+
+    <table class="table  employees">
+
+        <thead class="holdingThread">
+            <tr class="holdingTr">
+                <th>
+                    <h5>İşçi</h5>
+
+                </th>
+
+
+                <th>
+
+                    <h5>Vəzifə</h5>
+                </th>
+                <th>
+
+                    <h5>İşçi Bonusu</h5>
+                </th>
+                <th>
+
+                    <h5>İşçi Cəriməsi </h5>
+                </th>
+
+                <th>
+
+                    <h5>Mağaza Bonusu</h5>
+                </th>
+                <th>
+
+                    <h5>Qayıbların Sayı</h5>
+                </th>
+                <th>
+
+                    <h5>Məzuniyyətin Sayı</h5>
+                </th>
+                <th>
+
+                    <h5>Ay</h5>
+                </th>
+                <th>
+
+                    <h5>Vaktiki Maaş</h5>
+                </th>
+                <th>
+
+
+                    <a asp-action="ListPayment">
+                        <button title="Siyahı" type="submit" class="btn btn-primary holdingButton"><i class="fas fa-list bigPlus"></i></button>
+
+                    </a>
+                </th>
+
+            </tr>
+        </thead>
+        <tbody class="table-body table-bordered holdingTbody">
+
+
+
+
+
+            <tr>
+                <td>
+
+                    @Model.Employee.Name
+                    @Model.Employee.Surname
+
+                </td>
+                <td>
+                    @Model.Position.PositionName
+
+                </td>
+                <td>
+                    @Model.WorkerBonus
+
+                </td>
+                <td>
+                    @Model.WorkerPenalty
+
+                </td>
+                <td>
+                    @Model.StoreBonus
+
+                </td>
+
+                <td>
+                    @Model.AttandenceCount
+
+                </td>
+                <td>
+                    @Model.VacationDay
+
+                </td>
+                <td>
+                    @Model.PaymentDateTime
+
+                </td>
+                <td>
+                    @Model.PaymentAmount
+
+                </td>
+                <td>
+                    <a class="btn btn-primary " asp-action="EditWorker" asp-route-id="@Model.Id"><i class="fas fa-edit"></i></a>
+
+                    <button title="Edit" asp-route-id="@Model.Id" data-id="@Model.Id" class="btn btn-danger deleteWorker" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+                </td>
+            </tr>
+
+
+
+        
+
+
+        </tbody>
+    </table>
+
+    <div class="row">
+        <button id="load_more_worker" style="border-radius:5rem;" class="btn btn-primary w-25 mx-outo my-5 ml-5">Yüklə</button>
+
+    </div>
+    <input type="hidden" id="holdingCount" value="@ViewBag.TotalCount" />
+
+</div>
+
+
+
+<div class="modal fade" id="delete">
+
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-bg-color">
+            <div class="modal-header">
+                <h4 class="ml-5">Silmək isdədiyinizdən əminsinizmi?</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+
+
+            <div class="modal-footer d-flex">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <span class="caption-subject bold">İmtina </span>
+                </button>
+                <span class="AntiForge"> @Html.AntiForgeryToken() </span>
+                <button type="button" class="btn btn-danger delete_Save_WorkerSalary" data-dismiss="modal">
+                    <i class="fas fa-trash text-white m-r-5"></i>
+                    <span class="caption-subject bold ml-2">
+                        Sil
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

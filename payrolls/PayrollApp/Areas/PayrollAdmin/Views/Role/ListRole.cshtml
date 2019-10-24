@@ -1,0 +1,128 @@
+﻿@model IEnumerable<IdentityRole>
+
+
+
+<link href="~/payrolladmin/css/holding.css" rel="stylesheet" />
+
+<div class="Holding col-md-12">
+
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Rollar Üzrə Əməliyyatlar</p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+   
+
+
+
+
+
+
+
+    <table class="table table-bordered table-striped employees">
+        <thead>
+            <tr>
+                <th>
+                    Rollar: ID
+                </th>
+                <th>
+                    Rollar
+                </th>
+                <th>
+                    <a class="btn btn-primary addRole" style="padding-right: 3rem;" title="Add" data-toggle="modal"><i class="fa fa-plus">Yeni Role Yarat</i></a>
+                </th>
+
+            </tr>
+        </thead>
+
+        <tbody class="table-body">
+
+
+            @foreach (var role in Model)
+            {
+
+
+
+                <tr>
+                    <td  >
+                        @Html.DisplayFor(modelItem => role.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => role.Name)
+                    </td>
+                    <td>
+                        
+                        <a class="btn btn-primary editRole" asp-controller="Role" asp-action="EditRole" asp-route-id="@role.Id"><i class="fas fa-edit"></i></a>
+
+                    </td>
+
+
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+        </tbody>
+    </table>
+    </div>
+   
+
+
+    <div class="modal fade" id="add">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-bg-color">
+                <div class="modal-header">
+                    <h4 class="ml-5">Holding Yarat</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <label>Role Adı</label>
+                    <input id="nn" class="form-control" />
+
+
+
+                </div>
+
+                <div class="modal-footer d-flex">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        <span class="caption-subject bold">İmtina </span>
+                    </button>
+                    <span class="AntiForge"> @Html.AntiForgeryToken() </span>
+                    <button type="button" class="btn btn-primary addSave_Role" data-dismiss="modal">
+                        <i class="fas fa-plus text-white m-r-5"></i>
+                        <span class="caption-subject bold ml-2">
+                            Elavə Et
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+

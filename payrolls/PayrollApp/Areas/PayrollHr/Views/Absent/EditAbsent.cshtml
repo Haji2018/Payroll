@@ -1,0 +1,88 @@
+﻿@using PayrollApp.Models.Employment
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using PayrollApp.Models.Employment.Enum
+@model Absent
+
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> Qayıb Üzərində Dəyişiklikler </p>
+
+
+
+
+        </div>
+
+    </div>
+    <form asp-action="EditAbsent" method="post" asp-controller="Absent">
+        <div asp-validation-summary="ModelOnly" class="text-danger holdingControl"></div>
+        <div class="form-group">
+            <label asp-for="Attandence" class="control-label"></label>
+            <select asp-for="Attandence " class="form-control holdingControl" asp-items="Html.GetEnumSelectList<Attandence>()"></select>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="Worker" class="control-label"></label>
+            @{
+                List<SelectListItem> bb = new List<SelectListItem>();
+                foreach (Worker item in ViewBag.Workers)
+                {
+                    bb.Add(new SelectListItem
+                    {
+                        Text = item.Employee.Name,
+
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="WorkerId" class="form-control holdingControl" asp-items="bb"></select>
+            <span asp-validation-for="Worker" class="text-danger"></span>
+        </div>
+
+            <div class="form-group">
+                <label asp-for="AbsentDate" class="control-label"></label>
+                <input asp-for="AbsentDate" class="form-control holdingControl" />
+                <span asp-validation-for="AbsentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Reason" class="control-label"></label>
+                <input asp-for="Reason" class="form-control holdingControl" />
+                <span asp-validation-for="Reason" class="text-danger"></span>
+            </div>
+        
+
+
+
+
+      
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </form>
+   
+   
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

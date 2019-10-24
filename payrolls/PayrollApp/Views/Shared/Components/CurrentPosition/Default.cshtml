@@ -1,0 +1,11 @@
+﻿@model PayrollApp.ViewModels.SelectListItemViewModel
+
+<div class="form-group workerInput">
+    <label class="control-label">Vəzifə</label>
+    <select class="form-control holdingControl" asp-items="Model.SelectListPositions" name="PositionId" asp-for="Position.Id">
+        <option value=""></option>
+    </select>
+    <span asp-validation-for="Position.Id" class="text-danger"></span>
+</div>
+
+

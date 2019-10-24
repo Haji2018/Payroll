@@ -1,0 +1,40 @@
+﻿@model PayrollApp.Models.DepartmentHead.WorkerPenalty
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> İşçiyə Cəriməsi Yaz </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <form asp-action="CreateWorkerPenalty">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Amount" class="control-label"></label>
+            <input asp-for="Amount" class="form-control holdingControl" />
+            <span asp-validation-for="Amount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PenaltyWritedDate" class="control-label"></label>
+            <input asp-for="PenaltyWritedDate" class="form-control holdingControl" />
+            <span asp-validation-for="PenaltyWritedDate" class="text-danger"></span>
+        </div>
+        @await Component.InvokeAsync("CurrentWorker")
+        <div class="form-group">
+            <input type="submit" value="Əlavə Et" class="btn btn-primary  " /> |
+            <a class=" btn listbtn" asp-action="ListWorkerPenalty">Geri Qayıt</a>
+        </div>
+    </form>
+
+
+
+
+
+</div>

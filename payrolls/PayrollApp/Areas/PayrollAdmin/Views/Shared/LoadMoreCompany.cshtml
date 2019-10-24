@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PayrollApp.Models.Employment.Company>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.About)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Holding.HoldingName)
+        </td>
+        <td>
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary editCompany" data-toggle="modal"><i class="fas fa-edit"></i></button>
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteCompany" data-toggle="modal"><i class="fas fa-trash"></i></button>
+
+        </td>
+    </tr>
+
+
+    <tr class="d-none" id="trEmployee">
+
+        <td></td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.About)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Holding.HoldingName)
+        </td>
+
+        <td>
+
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary editCompany" data-toggle="modal"><i class="fas fa-edit"></i>Edit</button>
+            <button title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteCompany" data-toggle="modal"><i class="fas fa-trash"></i>Delete</button>
+        </td>
+    </tr>
+}

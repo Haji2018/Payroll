@@ -1,0 +1,55 @@
+﻿
+
+@using PayrollApp.Models.DepartmentHead
+
+
+
+    @model WorkerBonus
+
+
+
+
+    <div class="Holding col-md-12">
+        <div class="head-holding">
+            <div class="row">
+
+                <p> İşçiyə Bonus Yaz </p>
+
+
+
+
+            </div>
+
+        </div>
+
+
+        <form asp-action="CreateWorkerBonus" method="post" asp-controller="WorkerBonus">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @await Component.InvokeAsync("CurrentWorker")
+
+            <div class="form-group">
+                <label asp-for="BonusWritedDate" class="control-label"></label>
+                <input asp-for="BonusWritedDate" class="form-control holdingControl"/>
+                <span asp-validation-for="BonusWritedDate" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control holdingControl" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Əlavə Et" class="btn btn-primary  " /> |
+                <a class=" btn listbtn" asp-action="ListWorkerBonus">Geri Qayıt</a>
+            </div>
+        </form>
+
+
+
+
+
+    </div>

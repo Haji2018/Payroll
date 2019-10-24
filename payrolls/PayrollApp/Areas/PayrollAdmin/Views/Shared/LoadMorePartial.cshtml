@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PayrollApp.Models.Head.Holding>
+
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoldingName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.About)
+        </td>
+
+        <td>
+
+
+            <a title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary editHolding" data-toggle="modal"><i class="fas fa-edit"></i></a>
+            <a title="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteEmployee" data-toggle="modal"><i class="fas fa-trash"></i></a>
+        </td>
+    </tr>
+
+    <tr class="d-none" id="trEmployee">
+
+        <td></td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.About)
+        </td>
+
+
+        <td>
+
+            <a title="Edit" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary editHolding" data-toggle="modal"><i class="fas fa-edit"></i></a>
+            <a title="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger deleteEmployee" data-toggle="modal"><i class="fas fa-trash"></i></a>
+    </tr>
+}

@@ -1,0 +1,60 @@
+﻿
+@using PayrollApp.Models.DepartmentHead
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model WorkerBonus
+
+
+
+<div class="Holding col-md-12">
+    <div class="head-holding">
+        <div class="row">
+
+            <p> İşçi Bonusu Üzərində Dəyişiklikler </p>
+
+
+
+
+        </div>
+
+    </div>
+    <div class="col-md-8">
+        <form asp-action="EditWorkerBonus" asp-controller="WorkerBonus" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger holdingControl"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BonusWritedDate" class="control-label"></label>
+                <input asp-for="BonusWritedDate" class="form-control holdingControl" />
+                <span asp-validation-for="BonusWritedDate" class="text-danger"></span>
+            </div>
+
+           
+            <div class="form-group">
+            <label asp-for="Worker" class="control-label"></label>
+            @{
+                List<SelectListItem> ss = new List<SelectListItem>();
+                foreach (Worker item in ViewBag.Workers)
+                {
+                    ss.Add(new SelectListItem
+                    {
+                        Text = item.Employee.Name,
+                        Value = item.Id.ToString()
+                    });
+                }
+            }
+            <select asp-for="WorkerId" class="form-control holdingControl" asp-items="ss"></select>
+            <span asp-validation-for="Worker" class="text-danger"></span>
+        </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+
+
+</div>
